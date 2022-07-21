@@ -10,44 +10,30 @@ public class Main {
 
         //Task 2,3,4
 
-        int[] weights = new int[] { 10, 20, 30 };
-
+        int[] weights = new int[] {10, 20, 30};
         for (int i = weights.length - 1; i >= 0; i--) {
             if (i <= weights.length)
                 if (i == 0) {
                     System.out.println(weights[i]);
-                    break;
                 }
-                System.out.print(weights[i] + ", ");
+                else System.out.print(weights[i] + ",");
         }
-
-
-        System.out.println("\n");
-
+        System.out.println();
         float[] weightKg = {1.57f, 7.654f, 9.986f};
         for (int i = weightKg.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(weightKg[i]);
-                break;
             }
-            System.out.print(weightKg[i] + ", ");
+            else System.out.print(weightKg[i] + ",");
         }
-        System.out.println("\n");
-
+        System.out.println();
         int[] height = {180, 182, 190};
         for (int i = height.length - 1; i >= 0; i--) {
             if (i == 0){
                 System.out.println(height[i]);
                 break;
             }
-            System.out.print(height[i] + ", ");
+            else System.out.print(height[i] + ",");
         }
-
-
-
-
-
-
-
     }
 }
